@@ -50,7 +50,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ### YouComplete Me
 ```
+# En Vim
 cd ~/.vim/bundle/YouCompleteMe
+# En neovim
+cd ~/.config/nvim/plugged/YouCompleteMe
 ./install.py --clang-completion
 ```
 
